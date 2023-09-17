@@ -2,7 +2,15 @@ import { createApp } from 'vue'
 import '@babel/polyfill' 
 import './style.css'
 import App from './App.vue'
-import './assets/css/fonts.css'; // CSS 파일을 로드합니다.
+import './assets/css/fonts.css'; 
+import VueGtag from "vue-gtag";
 
-createApp(App).mount('#app')
-//Vue.config.productionTip = false
+
+createApp(App).use(VueGtag, {
+    config: { id: "G-TFFHDYS9W7" }
+}).mount("#app");
+
+
+
+
+

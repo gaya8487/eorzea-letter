@@ -12,6 +12,7 @@
     "@babel/polyfill": "^7.12.1",
     "html2canvas": "^1.4.1",
     "vue": "^3.3.4",
+    "vue-gtag": "^2.0.1",
     "vue-html2canvas": "^0.0.4"
   },
   "devDependencies": {
