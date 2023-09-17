@@ -75,7 +75,7 @@ export default {
         // 텍스트 스타일 설정
         ctx.font =   this.textWeight  +' ' + this.textSize+'px' +  ' ' + this.textFont; // 폰트 및 크기 설정
   
-        console.log(ctx.font);
+        // console.log(ctx.font);
         ctx.fillStyle = this.textColor; // 글자 색상 설정
         ctx.textAlign = this.textAlignment; // 선택한 정렬 옵션을 적용
         
@@ -140,10 +140,9 @@ export default {
           <li> 폰트는 기본 영어 대/소문자와 숫자만 지원하며, 숫자를 지원하지 않는 폰트도 있습니다. </li>
           <li> 입력한 내용은 미리보기에 표시됩니다. </li>
           <li> 이미지 다운로드 버튼을 눌러 이미지로 다운받을 수 있습니다. </li>
-          <li> 폰트는 사이트의 제작자가 만든 것이 아닙니다. 각 폰트의 출처는 하단에 있습니다.  </li>
+          <li> 각 폰트의 출처는 하단에 있습니다. </li>
         </ul>
     </div>
-  <hr>
   <br>
   <h3> 입력창 </h3>
   <hr>
