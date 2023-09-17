@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family:'Eorzea';
+    src: url('../fonts/Eorzea.ttf') format('truetype');
+   
+  }
+  
+  @font-face {
+    font-family:'CartaHandwriting';
+    src: url('../fonts/CartaHandwriting.ttf') format('truetype');
+  
+  }
+  @font-face {
+    font-family:'EorzeanCalligraphy-Regular';
+    src: url('../fonts/EorzeanCalligraphy-Regular.ttf') format('truetype');
+  
+  }
+  
+  @font-face {
+    font-family:'EorzeanMess-Regular';
+    src: url('../fonts/EorzeanMess-Regular.ttf') format('truetype');
+  
+  }
+  
+  
+  @font-face {
+    font-family:'EorzeanPen-Regular';
+    src: url('../fonts/EorzeanPen-Regular.ttf') format('truetype');
+  
+  }
+  
+  
+  @font-face {
+    font-family:'EorzeanScratch-Regular';
+    src: url('../fonts/EorzeanScratch-Regular.ttf') format('truetype');
+    
+  }
+  
+  
+  @font-face {
+    font-family:'EorzeanGraphite';
+    src: url('../fonts/EorzeanGraphite.woff') format('truetype');
+    
+  }
+  
+  
