@@ -53,10 +53,8 @@ export default {
 
       drawText() {
   
-    
         const canvas = this.$refs.canvas;
         const ctx = canvas.getContext('2d');
-        
 
         // Canvas 크기 설정
         canvas.width = this.canvasWidth; // 원하는 너비
@@ -69,8 +67,6 @@ export default {
           ctx.fillRect(0, 0, canvas.width, canvas.height);
           ctx.fill();
         }
-     
-
     
         // 텍스트 스타일 설정
         ctx.font =   this.textWeight  +' ' + this.textSize+'px' +  ' ' + this.textFont; // 폰트 및 크기 설정
@@ -264,8 +260,6 @@ export default {
       </div>
   </div>
 
-
-  
   <br>
   <br>
   <details>
@@ -318,18 +312,40 @@ export default {
   margin: 15px 15px 15px 15px;
  }
 
- 
  .context{
     padding:  15px 0  15px 15px;
   }
-  
-  .config  p  span{
-    border:1px solid gray;
-    padding:8px;
-    background-color:#F9F9F9;
- 
-  }
-</style>
 
+  .config  p  span{
+      border:1px solid gray;
+      padding:8px;
+      background-color:#F9F9F9;
+       /* display: inline-block; */
+    /*  height: 50px; */
+  }
+
+  @media only screen and (max-width: 789px) {
+
+    .config  p  span{
+      border:1px solid gray;
+      padding:4px;
+      background-color:#F9F9F9;
+      width: 250px;
+      height: 25px;
+      display: inline-block;
+    }
+    input{
+        width : 80px;
+    }
+    select{
+        width : 80px;
+    }
+     
+  .context{
+      padding:  0 0  0 0;
+    }
+  }
+
+</style>
 
 
