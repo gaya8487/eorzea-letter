@@ -11,6 +11,4 @@
 
 
 ## 페이지 썸네일
-![](https://user-images.githubusercontent.com/29671390/268490018-9484ba6d-a4d6-434e-bc2e-7191890bd901.png
-)
-
+![](https://user-images.githubusercontent.com/29671390/272168563-9f406b3e-a100-48de-a2a3-46743263652a.PNG)
